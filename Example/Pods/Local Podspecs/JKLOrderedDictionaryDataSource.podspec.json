@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "OrderedDictionary": [
-
+      "~> 1.2"
     ]
   }
 }
