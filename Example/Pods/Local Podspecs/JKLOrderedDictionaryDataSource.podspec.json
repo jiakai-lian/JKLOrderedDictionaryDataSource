@@ -21,5 +21,10 @@
     "JKLOrderedDictionaryDataSource": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "OrderedDictionary": [
+
+    ]
   }
 }

@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-JKLOrderedDictionaryDataSource_Example/JKLOrderedDictionaryDataSource.framework"
+  install_framework "Pods-JKLOrderedDictionaryDataSource_Example/OrderedDictionary.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-JKLOrderedDictionaryDataSource_Example/JKLOrderedDictionaryDataSource.framework"
+  install_framework "Pods-JKLOrderedDictionaryDataSource_Example/OrderedDictionary.framework"
 fi

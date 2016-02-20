@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/JKLOrderedDictionaryDataSource.framework"
+  install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/OrderedDictionary.framework"
   install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/Expecta.framework"
   install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/JKLOrderedDictionaryDataSource.framework"
+  install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/OrderedDictionary.framework"
   install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/Expecta.framework"
   install_framework "Pods-JKLOrderedDictionaryDataSource_Tests/Specta.framework"
 fi

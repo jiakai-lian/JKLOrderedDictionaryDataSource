@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DFE766375F0C1EE34E3617A9DA923679"
+               BlueprintIdentifier = "9C3DBF886CC3C335D038A2B735DEDF9C"
                BlueprintName = "JKLOrderedDictionaryDataSource"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "JKLOrderedDictionaryDataSource.framework">
