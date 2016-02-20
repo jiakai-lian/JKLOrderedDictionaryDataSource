@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JKLOrderedDictionaryDataSource_Example', :exclusive => true do
+  pod 'JKLOrderedDictionaryDataSource', :path => '../'
+end
+
+target 'JKLOrderedDictionaryDataSource_Tests', :exclusive => true do
+  pod 'JKLOrderedDictionaryDataSource', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+end
