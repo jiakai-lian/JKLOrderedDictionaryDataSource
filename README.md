@@ -17,7 +17,7 @@ JKLOrderedDictionaryDataSource is available through [CocoaPods](http://cocoapods
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "JKLOrderedDictionaryDataSource"
+pod "JKLOrderedDictionaryDataSource", :git =>  'https://github.com/jiakai-lian/JKLOrderedDictionaryDataSource.git/'
 ```
 
 ## Author
